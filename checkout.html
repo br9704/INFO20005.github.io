@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title -->
+    <title>SKYCOMP TECHNOLOGY</title>
+
+    <!-- favicon -->
+    <link href="img/favicon.png" type="image/png" rel="icon">
+
+    <!-- all css here -->
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+
+    <!-- Header area -->
+    <header class="site_header">
+        <div class="header_top_area">
+            <div class="container">
+                <div class="navbar_wrapper">
+                    <a href="index.html" class="logo_section">
+                        <img src="./img/skycomp-logo.svg" alt="">
+                    </a> 
+                    <div class="search_section">
+                        <input type="text" class="header_input" placeholder="Search e.g. “Red Headphones”...">
+                        <a href="#" class="search_button">
+                            <img src="./img/search-arrow.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="account_card_section">
+                        <a href="#" class="create_account">
+                        <img src="./img/login-user.svg" alt="">
+                        <p>Sign in or <br> Create an Account</p>
+                        </a>
+                        <a href="shopping-cart.html" class="card_product">
+                        <img src="./img/card-bag.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="responsive_navbar">
+                    
+                    <a class="responsive_logo_section">
+                        <img src="./img/skycomp-logo.svg" alt="">
+                    </a> 
+                    <div class="responsive_menu_section">
+                        <a href="#" class="responsive_account">
+                            <img src="./img/responsive-icon2.svg" alt="">
+                            <p class="responsive_sub_title">Account</p>
+                        </a>
+                        <a href="shopping-cart.html" class="responsive_cart">
+                            <img src="./img/responsive-image3.svg" alt="">
+                            <p class="responsive_sub_title">Cart</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="responsive_search">
+            <div class="container">
+                <div class="search_section">
+                    <input type="text" class="header_input" placeholder="Search for something e.g. “Headphones”">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        
+        <div class="container ch_container">
+            <form class="ch_row" action="#">
+                <div class="ch_1st_col">
+                    <div class="address_selection">
+                        <h2>1: Shipping Address & Delivery:</h2>
+                        <div class="address_selection_box">
+                            <div class="for_long_input">
+                                <div>
+                                    <label for="country">Country/Region:</label>
+                                    <input type="text" id="country">
+                                </div>
+                                <div>
+                                    <label for="f_name">Full Name:</label>
+                                    <input type="text" id="f_name">
+                                </div>
+                                <div>
+                                    <label for="address_line_1">Address Line 1:</label>
+                                    <input type="text" id="address_line_1">
+                                </div>
+                                <div>
+                                    <label for="address_line_2">Address Line 2:</label>
+                                    <input type="text" id="address_line_2">
+                                </div>
+                            </div>
+                            <div class="for_short_input">
+                                <div>
+                                    <label for="ph_number">Phone number:</label>
+                                    <input type="tel" id="ph_number">
+                                </div>
+                                <div>
+                                    <label for="city">City:</label>
+                                    <input type="text" id="city">
+                                </div>
+                                <div>
+                                    <label for="state">State/Territory:</label>
+                                    <input type="text" id="state">
+                                </div>
+                                <div>
+                                    <label for="zip_code">ZIP CODE:</label>
+                                    <input type="text" id="zip_code" pattern="\d*">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="payment_selection">
+                        <h2>2: Choose a payment method:</h2>
+                        <div class="payment_selection_box">
+                            <div class="payment_selection_box_inner">
+                                <div class="for_long_input">
+                                    <div>
+                                        <label for="card_name">Name</label>
+                                        <input type="text" id="card_name">
+                                    </div>
+                                    <div>
+                                        <label for="card_number">Card Number:</label>
+                                        <input type="text" id="card_number">
+                                    </div>
+                                </div>
+                                <div class="for_short_input">
+                                    <div>
+                                        <label for="expiry_date">Expiry Date:</label>
+                                        <input type="text" id="expiry_date">
+                                    </div>
+                                    <div>
+                                        <label for="security_code">Security Code:</label>
+                                        <input type="text" id="security_code">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="payments_btns">
+                                <a href="#" class="payment_btn_1">ADD NEW PAYMENT METHOD</a>
+                                <a href="#" class="payment_btn_2">SAVE PAYMENT METHOD</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ch_2nd_col">
+                    <div class="order_summery_side">
+                        <h2>ORDER SUMMARY:</h2>
+                        <div class="order_summery_box">
+                            <div class="order_summery_top">
+                                <p class="subtotal_p"><strong>Subtotal: 1917.45 </strong></p>
+                                <p class="shipping_hand_p"><strong>Shipping and Handling: 20.00</strong></p>
+                                <p class="total_excl_p"><strong>Total excl. tax: 1937.45</strong></p>
+                                <p class="tax_p"><strong>Tax: 10.00</strong></p>
+                                <p class="order_total_p"><strong>Order Total: 1947.45</strong></p>
+                            </div>
+                            <div>
+                                <div class="order_summery_bottom">
+                                    <h3>Order Total: 1947.45</h3>
+                                    <a
+                                    href='thank-you.html' <button type="submit" class="purchase_btn">PURCHASE</button>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    
+    
+    <!-- all js here -->
+    <script src="js/main.js"></script>
+</body>
+</html>
